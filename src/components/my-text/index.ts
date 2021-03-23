@@ -3,6 +3,8 @@ import {LitElement, html, customElement, property, eventOptions} from 'lit-eleme
 type CustomEventDetail = {
   value: string;
   oldValue?: string;
+  isTest1?: boolean;
+  isTest0?: boolean;
 };
 
 @customElement('my-text')

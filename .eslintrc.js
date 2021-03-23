@@ -6,5 +6,6 @@ module.exports = {
   rules: {
     "kuc-v1/no-underscore": "warn",
     "kuc-v1/no-handle-prefix": "error",
+    "kuc-v1/no-alphabet-order": "warn"
   }
 };
